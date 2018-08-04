@@ -1,0 +1,50 @@
+*{
+	margin: 0;	
+	padding: 0;
+}
+
+ul{
+	list-style-type: none;
+}
+
+.box{
+	width: 789px;
+	height: auto;
+	margin: 0 auto;
+}
+
+.list-box{
+	margin: 0 auto;
+	width: 700px;
+	height: 42px;
+	border-bottom: 1px solid #eeeeee;
+}
+
+.list{
+	float: right;
+	padding-top: 10px;
+}
+
+.list-box ul li{
+	cursor: pointer;
+	width: 32px;
+	height: 32px;
+	float: left;
+	display: block;
+	background: url('fuwu.png') no-repeat;
+/* 	background-color: blue; */
+}
+
+.changelist .list-1-o{
+	height: 300px;
+	width: 240px;
+	border: 1px solid #aaaaaa;
+	float: left;
+	margin-left: 20px;
+	margin-bottom: 20px;
+}
+
+.changelist .list-2-v{
+	height: 300px;
+	border: 1px solid #aaaaaa;	
+}
